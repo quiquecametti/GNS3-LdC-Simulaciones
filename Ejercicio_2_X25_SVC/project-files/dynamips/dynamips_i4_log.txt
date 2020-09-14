@@ -1,0 +1,26 @@
+Sep 14 20:12:37.475 HYPERVISOR: Release 0.2.21-amd64/Linux (tag 2019071212)
+Sep 14 20:12:37.475 HYPERVISOR: Started on IP = localhost, TCP port = 59449.
+Sep 14 20:12:37.486 HYPERVISOR: exec_cmd: hypervisor version 
+Sep 14 20:12:37.486 HYPERVISOR: exec_cmd: hypervisor working_dir /home/ecam/GNS3/projects/Ejercicio_2_X25_SVC/project-files/dynamips 
+Sep 14 20:12:37.486 GENERAL: working_dir=/home/ecam/GNS3/projects/Ejercicio_2_X25_SVC/project-files/dynamips
+Sep 14 20:12:37.486 HYPERVISOR: exec_cmd: hypervisor working_dir /home/ecam/GNS3/projects/Ejercicio_2_X25_SVC/project-files/dynamips/2d55c881-9ab0-417c-8db8-aaf1751727f8 
+Sep 14 20:12:37.486 GENERAL: working_dir=/home/ecam/GNS3/projects/Ejercicio_2_X25_SVC/project-files/dynamips/2d55c881-9ab0-417c-8db8-aaf1751727f8
+Sep 14 20:12:37.487 HYPERVISOR: exec_cmd: vm create alpha 1 c7200 
+Sep 14 20:12:37.487 VM: VM alpha created.
+Sep 14 20:12:37.487 HYPERVISOR: exec_cmd: vm set_con_tcp_port alpha 5003 
+Sep 14 20:12:37.487 HYPERVISOR: exec_cmd: c7200 get_mac_addr alpha 
+Sep 14 20:12:37.487 HYPERVISOR: exec_cmd: vm get_status alpha 
+Sep 14 20:12:37.488 HYPERVISOR: exec_cmd: vm slot_add_binding alpha 0 0 C7200-IO-FE 
+Sep 14 20:12:37.488 HYPERVISOR: exec_cmd: vm set_disk0 alpha 0 
+Sep 14 20:12:37.488 HYPERVISOR: exec_cmd: vm get_status alpha 
+Sep 14 20:12:37.489 HYPERVISOR: exec_cmd: vm set_idle_pc alpha 0x6228c204 
+Sep 14 20:12:37.489 HYPERVISOR: exec_cmd: vm set_ios alpha /home/ecam/GNS3/images/IOS/c7200-advipservicesk9-mz.152-4.S5.image 
+Sep 14 20:12:37.490 HYPERVISOR: exec_cmd: c7200 set_mac_addr alpha ca01.1aa4.0000 
+Sep 14 20:12:37.491 HYPERVISOR: exec_cmd: vm set_nvram alpha 512 
+Sep 14 20:12:37.491 HYPERVISOR: exec_cmd: vm set_ram alpha 512 
+Sep 14 20:12:37.492 HYPERVISOR: exec_cmd: vm get_status alpha 
+Sep 14 20:12:37.492 HYPERVISOR: exec_cmd: vm slot_add_binding alpha 1 0 PA-4T+ 
+Sep 14 20:12:37.494 HYPERVISOR: exec_cmd: vm set_con_tcp_port alpha 5003 
+Sep 14 20:12:37.604 HYPERVISOR: exec_cmd: nio create_udp udp-fffdcea0-4842-4210-9c82-ac0c17c80e07 10014 127.0.0.1 10015 
+Sep 14 20:12:37.818 HYPERVISOR: exec_cmd: vm slot_add_nio_binding alpha 1 0 udp-fffdcea0-4842-4210-9c82-ac0c17c80e07 
+Sep 14 20:12:37.819 HYPERVISOR: exec_cmd: vm get_status alpha 

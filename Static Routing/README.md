@@ -6,7 +6,7 @@
 
 >**¿Cómo seria la ruta estática configurada en R2 para que llegar a todas las loopback?**
 >
->***Rta:*** ip route 192.168.0.0 255.255.252.0 200.12.12.0
+>***Rta:*** ip route 192.168.0.0 255.255.252.0 200.12.12.1
 
 > **¿R1 necesita una ruta estática para llegar a R2?**
 >

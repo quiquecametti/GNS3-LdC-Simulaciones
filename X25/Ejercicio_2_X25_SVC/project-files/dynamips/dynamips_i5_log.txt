@@ -1,0 +1,29 @@
+Sep 14 20:12:37.512 HYPERVISOR: Release 0.2.21-amd64/Linux (tag 2019071212)
+Sep 14 20:12:37.512 HYPERVISOR: Started on IP = localhost, TCP port = 54581.
+Sep 14 20:12:37.523 HYPERVISOR: exec_cmd: hypervisor version 
+Sep 14 20:12:37.523 HYPERVISOR: exec_cmd: hypervisor working_dir /home/ecam/GNS3/projects/Ejercicio_2_X25_SVC/project-files/dynamips 
+Sep 14 20:12:37.523 GENERAL: working_dir=/home/ecam/GNS3/projects/Ejercicio_2_X25_SVC/project-files/dynamips
+Sep 14 20:12:37.523 HYPERVISOR: exec_cmd: hypervisor working_dir /home/ecam/GNS3/projects/Ejercicio_2_X25_SVC/project-files/dynamips/4f485bb8-758c-4668-b9ca-09762a41696f 
+Sep 14 20:12:37.523 GENERAL: working_dir=/home/ecam/GNS3/projects/Ejercicio_2_X25_SVC/project-files/dynamips/4f485bb8-758c-4668-b9ca-09762a41696f
+Sep 14 20:12:37.524 HYPERVISOR: exec_cmd: vm create sigma 2 c7200 
+Sep 14 20:12:37.524 VM: VM sigma created.
+Sep 14 20:12:37.524 HYPERVISOR: exec_cmd: vm set_con_tcp_port sigma 5004 
+Sep 14 20:12:37.524 HYPERVISOR: exec_cmd: c7200 get_mac_addr sigma 
+Sep 14 20:12:37.524 HYPERVISOR: exec_cmd: vm get_status sigma 
+Sep 14 20:12:37.524 HYPERVISOR: exec_cmd: vm slot_add_binding sigma 0 0 C7200-IO-FE 
+Sep 14 20:12:37.526 HYPERVISOR: exec_cmd: vm set_disk0 sigma 0 
+Sep 14 20:12:37.527 HYPERVISOR: exec_cmd: vm get_status sigma 
+Sep 14 20:12:37.528 HYPERVISOR: exec_cmd: vm set_idle_pc sigma 0x6228c204 
+Sep 14 20:12:37.530 HYPERVISOR: exec_cmd: vm set_ios sigma /home/ecam/GNS3/images/IOS/c7200-advipservicesk9-mz.152-4.S5.image 
+Sep 14 20:12:37.530 HYPERVISOR: exec_cmd: c7200 set_mac_addr sigma ca02.20e4.0000 
+Sep 14 20:12:37.531 HYPERVISOR: exec_cmd: vm set_nvram sigma 512 
+Sep 14 20:12:37.531 HYPERVISOR: exec_cmd: vm set_ram sigma 512 
+Sep 14 20:12:37.531 HYPERVISOR: exec_cmd: vm get_status sigma 
+Sep 14 20:12:37.532 HYPERVISOR: exec_cmd: vm slot_add_binding sigma 1 0 PA-4T+ 
+Sep 14 20:12:37.532 HYPERVISOR: exec_cmd: vm set_con_tcp_port sigma 5004 
+Sep 14 20:12:37.839 HYPERVISOR: exec_cmd: nio create_udp udp-c1951e42-2a5e-4bc3-8c31-aa3b74388336 10016 127.0.0.1 10017 
+Sep 14 20:12:38.052 HYPERVISOR: exec_cmd: vm slot_add_nio_binding sigma 1 0 udp-c1951e42-2a5e-4bc3-8c31-aa3b74388336 
+Sep 14 20:12:38.052 HYPERVISOR: exec_cmd: vm get_status sigma 
+Sep 14 20:12:38.090 HYPERVISOR: exec_cmd: nio create_udp udp-d8f31a72-89df-479e-baf5-12fe7e1f017c 10020 127.0.0.1 10021 
+Sep 14 20:12:38.091 HYPERVISOR: exec_cmd: vm slot_add_nio_binding sigma 1 1 udp-d8f31a72-89df-479e-baf5-12fe7e1f017c 
+Sep 14 20:12:38.091 HYPERVISOR: exec_cmd: vm get_status sigma 

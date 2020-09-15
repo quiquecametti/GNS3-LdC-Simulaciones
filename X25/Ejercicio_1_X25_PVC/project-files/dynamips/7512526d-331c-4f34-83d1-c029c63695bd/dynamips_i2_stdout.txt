@@ -1,0 +1,94 @@
+C7200 'Ghost': generic_nvram_extract_config: Unknown error -61605
+Cisco Router Simulation Platform (version 0.2.21-amd64/Linux stable)
+Copyright (c) 2005-2011 Christophe Fillot.
+Build date: Jul 12 2019 11:00:00
+
+Log file: writing to dynamips_i2_log.txt
+Hypervisor TCP control server started (IP localhost port 33485).
+CPU0: carved JIT exec zone of 64 Mb into 2048 pages of 32 Kb.
+NVRAM is empty, setting config register to 0x2142
+C7200 instance 'Ghost' (id 0):
+  VM Status  : 0
+  RAM size   : 256 Mb
+  IOMEM size : 256 Mb
+  NVRAM size : 128 Kb
+  NPE model  : npe-400
+  Midplane   : vxr
+  IOS image  : /home/ecam/GNS3/images/IOS/c7200-advipservicesk9-mz.152-4.S5.image
+
+Loading ELF file '/home/ecam/GNS3/images/IOS/c7200-advipservicesk9-mz.152-4.S5.image'...
+ELF entry point: 0x80008000
+
+C7200 'Ghost': starting simulation (CPU0 PC=0xffffffffbfc00000), JIT enabled.
+
+C7200 'Ghost': stopping simulation.
+CPU0: carved JIT exec zone of 64 Mb into 2048 pages of 32 Kb.
+NVRAM is empty, setting config register to 0x2142
+C7200 instance 'alpha' (id 1):
+  VM Status  : 0
+  RAM size   : 256 Mb
+  IOMEM size : 256 Mb
+  NVRAM size : 512 Kb
+  NPE model  : npe-400
+  Midplane   : vxr
+  IOS image  : /home/ecam/GNS3/images/IOS/c7200-advipservicesk9-mz.152-4.S5.image
+
+Loading ELF file '/home/ecam/GNS3/images/IOS/c7200-advipservicesk9-mz.152-4.S5.image'...
+ELF loading skipped, using a ghost RAM file.
+ELF entry point: 0x80008000
+
+C7200 'alpha': starting simulation (CPU0 PC=0xffffffffbfc00000), JIT enabled.
+
+C7200 'alpha': stopping simulation.
+CPU0: carved JIT exec zone of 64 Mb into 2048 pages of 32 Kb.
+C7200 instance 'alpha' (id 1):
+  VM Status  : 0
+  RAM size   : 256 Mb
+  IOMEM size : 256 Mb
+  NVRAM size : 512 Kb
+  NPE model  : npe-400
+  Midplane   : vxr
+  IOS image  : /home/ecam/GNS3/images/IOS/c7200-advipservicesk9-mz.152-4.S5.image
+
+Loading ELF file '/home/ecam/GNS3/images/IOS/c7200-advipservicesk9-mz.152-4.S5.image'...
+ELF loading skipped, using a ghost RAM file.
+ELF entry point: 0x80008000
+
+C7200 'alpha': starting simulation (CPU0 PC=0xffffffffbfc00000), JIT enabled.
+
+Please wait while gathering statistics...
+Done. Suggested idling PC:
+   0x6228c204 (count=63)
+   0x6228c218 (count=27)
+   0x61e042f0 (count=20)
+   0x63184bc8 (count=74)
+   0x63184dd4 (count=63)
+   0x63185884 (count=79)
+   0x63185e60 (count=21)
+   0x63185e9c (count=20)
+   0x63185eb8 (count=65)
+   0x63185efc (count=56)
+Restart the emulator with "--idle-pc=0x6228c204" (for example)
+
+C7200 'alpha': stopping simulation.
+CPU0: carved JIT exec zone of 64 Mb into 2048 pages of 32 Kb.
+C7200 instance 'alpha' (id 1):
+  VM Status  : 0
+  RAM size   : 256 Mb
+  IOMEM size : 256 Mb
+  NVRAM size : 512 Kb
+  NPE model  : npe-400
+  Midplane   : vxr
+  IOS image  : /home/ecam/GNS3/images/IOS/c7200-advipservicesk9-mz.152-4.S5.image
+
+Loading ELF file '/home/ecam/GNS3/images/IOS/c7200-advipservicesk9-mz.152-4.S5.image'...
+ELF loading skipped, using a ghost RAM file.
+ELF entry point: 0x80008000
+
+C7200 'alpha': starting simulation (CPU0 PC=0xffffffffbfc00000), JIT enabled.
+
+C7200 'alpha': stopping simulation.
+Hypervisor: closing control sockets.
+Hypervisor: closing remote client connections.
+Shutdown in progress...
+Shutdown completed.

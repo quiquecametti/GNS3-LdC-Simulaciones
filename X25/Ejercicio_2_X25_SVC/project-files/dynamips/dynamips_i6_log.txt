@@ -1,0 +1,26 @@
+Sep 14 20:12:37.550 HYPERVISOR: Release 0.2.21-amd64/Linux (tag 2019071212)
+Sep 14 20:12:37.550 HYPERVISOR: Started on IP = localhost, TCP port = 59183.
+Sep 14 20:12:37.563 HYPERVISOR: exec_cmd: hypervisor version 
+Sep 14 20:12:37.563 HYPERVISOR: exec_cmd: hypervisor working_dir /home/ecam/GNS3/projects/Ejercicio_2_X25_SVC/project-files/dynamips 
+Sep 14 20:12:37.563 GENERAL: working_dir=/home/ecam/GNS3/projects/Ejercicio_2_X25_SVC/project-files/dynamips
+Sep 14 20:12:37.564 HYPERVISOR: exec_cmd: hypervisor working_dir /home/ecam/GNS3/projects/Ejercicio_2_X25_SVC/project-files/dynamips/39c03032-5126-41b2-add4-1be7cb0dea70 
+Sep 14 20:12:37.564 GENERAL: working_dir=/home/ecam/GNS3/projects/Ejercicio_2_X25_SVC/project-files/dynamips/39c03032-5126-41b2-add4-1be7cb0dea70
+Sep 14 20:12:37.564 HYPERVISOR: exec_cmd: vm create beta 3 c7200 
+Sep 14 20:12:37.564 VM: VM beta created.
+Sep 14 20:12:37.564 HYPERVISOR: exec_cmd: vm set_con_tcp_port beta 5005 
+Sep 14 20:12:37.564 HYPERVISOR: exec_cmd: c7200 get_mac_addr beta 
+Sep 14 20:12:37.564 HYPERVISOR: exec_cmd: vm get_status beta 
+Sep 14 20:12:37.565 HYPERVISOR: exec_cmd: vm slot_add_binding beta 0 0 C7200-IO-FE 
+Sep 14 20:12:37.565 HYPERVISOR: exec_cmd: vm set_disk0 beta 0 
+Sep 14 20:12:37.566 HYPERVISOR: exec_cmd: vm get_status beta 
+Sep 14 20:12:37.566 HYPERVISOR: exec_cmd: vm set_idle_pc beta 0x6228c204 
+Sep 14 20:12:37.566 HYPERVISOR: exec_cmd: vm set_ios beta /home/ecam/GNS3/images/IOS/c7200-advipservicesk9-mz.152-4.S5.image 
+Sep 14 20:12:37.567 HYPERVISOR: exec_cmd: c7200 set_mac_addr beta ca03.2200.0000 
+Sep 14 20:12:37.567 HYPERVISOR: exec_cmd: vm set_nvram beta 512 
+Sep 14 20:12:37.567 HYPERVISOR: exec_cmd: vm set_ram beta 512 
+Sep 14 20:12:37.568 HYPERVISOR: exec_cmd: vm get_status beta 
+Sep 14 20:12:37.568 HYPERVISOR: exec_cmd: vm slot_add_binding beta 1 0 PA-4T+ 
+Sep 14 20:12:37.568 HYPERVISOR: exec_cmd: vm set_con_tcp_port beta 5005 
+Sep 14 20:12:38.102 HYPERVISOR: exec_cmd: nio create_udp udp-51beb110-e5ef-4d50-8912-7a7a160ca444 10022 127.0.0.1 10023 
+Sep 14 20:12:38.314 HYPERVISOR: exec_cmd: vm slot_add_nio_binding beta 1 0 udp-51beb110-e5ef-4d50-8912-7a7a160ca444 
+Sep 14 20:12:38.315 HYPERVISOR: exec_cmd: vm get_status beta 

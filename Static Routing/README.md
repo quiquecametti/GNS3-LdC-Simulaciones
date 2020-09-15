@@ -16,7 +16,7 @@
 >
 >***Rta:***
 > ###### Topología en GNS3
-![Topo-gns3](topo_sr_gns3.png)
+>![Topo-gns3](topo_sr_gns3.png)
 > ##### Configuración R1
 >```
 >R1#config t

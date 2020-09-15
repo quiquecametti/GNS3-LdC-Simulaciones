@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-GNS3-LdC-Simulaciones
-=======
 # Ejercicio RIPv2
 ## Topología
 ![Topology](topo_ripv2.png)
@@ -333,4 +330,3 @@ R        192.168.4.8/30 [120/1] via 192.168.4.13, 00:00:05, FastEthernet0/0
 C        192.168.4.12/30 is directly connected, FastEthernet0/0
 L        192.168.4.14/32 is directly connected, FastEthernet0/0
 ```
->>>>>>> ripv2

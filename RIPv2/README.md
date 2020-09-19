@@ -119,6 +119,7 @@ L        192.168.4.6/32 is directly connected, FastEthernet2/0
 MIRAGE#config t
 MIRAGE(config)#router rip
 MIRAGE(config-router)#version 2
+MIRAGE(config-router)#passive-interface fa0/0
 MIRAGE(config-router)#network 192.168.1.0
 MIRAGE(config-router)#network 192.168.4.0
 ```
@@ -127,6 +128,7 @@ MIRAGE(config-router)#network 192.168.4.0
 VERTIGO#config t
 VERTIGO(config)#router rip
 VERTIGO(config-router)#version 2
+VERTIGO(config-router)#passive-interface fa0/0
 VERTIGO(config-router)#network 192.168.3.0
 VERTIGO(config-router)#network 192.168.4.4
 ```
@@ -136,6 +138,7 @@ VERTIGO(config-router)#network 192.168.4.4
 OVERPASS#config t
 OVERPASS(config)#router rip
 OVERPASS(config-router)#version 2
+OVERPASSx(config-router)#passive-interface fa0/0
 OVERPASS(config-router)#network 192.168.2.0
 OVERPASS(config-router)#network 192.168.4.0
 OVERPASS(config-router)#network 192.168.4.4
